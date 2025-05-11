@@ -38,18 +38,5 @@ gpt_predictions.py
 requirements.txt
 README.txt
 
-⚙️ Configuration
 
-- Font: Liberation Serif  
-- ENV VAR for GPT:  
-  export OPENAI_API_KEY=your_key_here
 
-📊 Outputs
-
-- Plots saved to plots/ (PNG)  
-- Tables/Excel: comparative_ra_predictions.xlsx, resultados_*.csv
-"""
-with open('/mnt/data/README.txt', 'w') as f:
-    f.write(content)
-
-"/mnt/data/README.txt"
